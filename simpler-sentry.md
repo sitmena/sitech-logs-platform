@@ -1,7 +1,7 @@
-
+# Simpler Sentry Integration Proposed Solution
 
 ### Introduction
-For any Sentry has two major components:
+For any Sentry Integration has two major components:
 
 - Sentry plugin in, which collects error logs and sends them to the server
 - Sentry Platform is a complex suite of company management, advanced querying, advanced integrations, and a very advanced UI that categorizes everything 
