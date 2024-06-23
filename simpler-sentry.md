@@ -18,7 +18,7 @@ So a middle path toward using Sentry would be to use its reliable client plugins
 ### Plan
 - [ ] Sanity Test & Data snapshots collections
 - [ ] Defining Roadmap
-- [ ] Review with project members
+- [ ] Review with projects members
 - [ ]  Execution Plan
 
 
@@ -37,8 +37,8 @@ what this site does is it captures the data sent to it, which provides the conte
 - [ ] Architectural Decisions: Framework, DB, DB modeling, authentication, ..etc
 
 
-#### Review with project members
-Discussing the proposed solution, collecting invaluable feedback, and refining the previous steps, the point of this stage is to come out with principal must-have features that mark V1 a success
+#### Review with projects members
+Discussing the proposed solution across all Sitech projects of at least one member, collecting invaluable feedback, and refining the previous steps, the point of this stage is to come out with principal must-have features that mark V1 a success
 
 
 
