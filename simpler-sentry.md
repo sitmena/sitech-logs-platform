@@ -23,11 +23,7 @@ So a middle path toward using Sentry would be to use its reliable client plugins
 
 
 #### Sanity Test & Data snapshots collections
-As a sanity test for this path, the first step would be to check the sent data to Sentry, which would be possible using a mirror API like [﻿webhook.site ](https://webhook.site/) 
-
-that can be done using 
-
-what this site does is it captures the data sent to it, which provides the context, based on the error context format, a web application feasibility review can be done.
+As a sanity test for this path, the first step would be to check the sent data to Sentry, which would be possible using a mirror API like [﻿webhook.site ](https://webhook.site/) what this site does is it captures the data sent to it, which provides the context, based on the error context format, a web application feasibility review can be done.
 
 
 
