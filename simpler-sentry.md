@@ -7,7 +7,7 @@ Sentry integration comprises two major components:
 
 While Sentry is open-source and can be self-hosted, its infrastructure is resource-intensive and complex, creating cost and scalability issues that exceed our needs.
 
-
+**Proposed Middle Path**: Utilize Sentry’s reliable client plugins alongside our custom servers.
 
 ### Plan
 - [ ] Sanity Test & Data snapshots collections
