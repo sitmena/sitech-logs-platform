@@ -16,5 +16,7 @@ def read_root():
 
 @app.post("/api/logs")
 async def receive_log(log: ErrorLog):
-    print(f"Received log: {log}")
+    print("***************************")
+    print(log.log)
+    print(f"Log level: {log.level}")
     return {"message": "Log received successfully"}
