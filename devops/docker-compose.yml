@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  server:
+    image: sitech-logs
+    container_name: sitech-logs
+    command: bash -c "uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload --use-colors"
+    volumes:
+      - ../:/app/
+    environment:
+      DATABASE_URL: "postgresql://postgres@postgres/sitech-logs"
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
