@@ -48,6 +48,14 @@
            except requests.RequestException as e:
                logging.error(f"Failed to send log to FastAPI tool: {e}")
 
-2. Run docker inspect sitech-logs and get the IP address of the container.
-3. Place the ip address of the container in the logger_url variable in the above class.
-4. Make an excpetion on your django project and you should see it on the terminal of sitech logger.
+2. Add the middleware class in your django settings.py file.
+   ```python
+   MIDDLEWARE = [
+       ...
+       'path.to.CustomErrorLoggingMiddleware',
+       ...
+   ]
+   ```
+3. Run docker inspect sitech-logs and get the IP address of the container.
+4. Place the ip address of the container in the logger_url variable in the above class.
+5. Make an excpetion on your django project and you should see it on the terminal of sitech logger.
